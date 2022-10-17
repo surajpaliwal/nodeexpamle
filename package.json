@@ -1,5 +1,4 @@
 {
-  {
   "name": "example-contentful-theExampleApp-js",
   "version": "0.0.0",
   "private": true,
@@ -10,7 +9,7 @@
     "start": "NODE_ENV=production node ./bin/www",
     "start:production": "NODE_ENV=production node ./bin/www",
     "lint": "eslint ./app.js routes",
-    "format": "eslint --fix . bin --ignore public node_modules",
+    "format": "eslint --fix . bin --ignore public node_modules"
   },
   "engines": {
     "node": ">=8.9.3"
